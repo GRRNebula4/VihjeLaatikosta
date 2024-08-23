@@ -1,0 +1,60 @@
+
+p {
+    font-weight: bold;
+  }
+  
+  div#container li:nth-child(odd) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    display: flex;
+    width: 100%;
+  }
+
+  div#container li:nth-child(even) {
+    background-color: white;
+    border: 2px solid orange;
+    display: flex;
+    width: 100%;
+  }
+
+
+  div#container2 li:nth-child(even) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+    background-color: lightgray;
+    display: flex;
+    width: 100%;
+  }
+
+  div#container2 li:nth-child(odd) {
+    background-color: white;
+    border: 2px solid orange;
+    display: flex;
+    width: 100%;
+  }
+
+
+  
+  #content {
+    display: flex;
+    align-items: stretch;
+  }
+
+div#container {
+    flex: 1;
+    margin: 0;
+
+}
+
+div#container2 {
+    flex: 2;
+    margin: 0;
+  }
+
+ol {
+    padding: 0;
+    width: 97%;
+}
+
+  
